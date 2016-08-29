@@ -7,7 +7,7 @@
 
     
     //Closure for JS API
-    module.exports = (function(app)
+    module.exports = function(app)
     {
             // get all goals
             app.get('/api/goals', function(req, res) {
@@ -70,4 +70,4 @@
 	
 
 
-    })();
+    };

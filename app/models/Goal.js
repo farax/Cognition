@@ -2,6 +2,6 @@
 
 
 	// Model: Goal =================
-    module.export = mongoose.model('Goal', {
+    module.exports = mongoose.model('Goal', {
         text : String
     })
